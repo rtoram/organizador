@@ -1,12 +1,12 @@
 import os
 import shutil
 
-# Configuração das pastas (ajuste os caminhos para o seu computador)
-pasta_entrada = "C:/Users/SeuNome/Downloads"  # Onde estão os arquivos bagunçados
+# Configuração das pastas (usuário deve ajustar esses caminhos)
+pasta_entrada = "./Entrada"  # Pasta onde estão os arquivos bagunçados
 pastas_destino = {
-    "Documentos": "C:/Users/SeuNome/Organizado/Documentos",
-    "Fotos": "C:/Users/SeuNome/Organizado/Fotos",
-    "Outros": "C:/Users/SeuNome/Organizado/Outros"
+    "Documentos": "./Organizado/Documentos",
+    "Fotos": "./Organizado/Fotos",
+    "Outros": "./Organizado/Outros"
 }
 
 # Criar pastas de destino, se não existirem
