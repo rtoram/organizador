@@ -1,0 +1,15 @@
+name: Testar Organizador
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Instalar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    - name: Instalar dependências
+      run: pip install -r requirements.txt
+    - name: Rodar o código
+      run: python organizador.py
