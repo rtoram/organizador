@@ -1,0 +1,5 @@
+# Nenhuma biblioteca externa necessária para a versão básica!
+# Se adicionar recursos como leitura de PDFs, inclua:
+# pdfplumber
+# ou para imagens:
+# Pillow
